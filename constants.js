@@ -1,0 +1,15 @@
+const HEIGHT = 600;
+const NUM_FLOORS = 10;
+const WIDTH = 800;
+const FLOOR_SIZE = HEIGHT / NUM_FLOORS;
+
+export const defaultParams = {
+   HEIGHT,
+   NUM_FLOORS,
+   WIDTH,
+   FLOOR_SIZE,
+   ELEVATOR_X_POSITION: WIDTH - FLOOR_SIZE / 2,
+   FLOOR_POSITION: WIDTH - FLOOR_SIZE,
+   TICK_SPEED: 10,
+   STARTING_FLOOR: 0,
+}
